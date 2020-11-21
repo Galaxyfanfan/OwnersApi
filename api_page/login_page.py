@@ -5,18 +5,20 @@ galaxy - 当前用户名;
 2020/11/21 3:30 下午 
 """
 from api_page.base_api import BaseApi
-
+import yaml
 
 class LoginPage(BaseApi):
     """
-    通讯录管理，包括增删改查
+    登录
     """
 
-    def __init__(self):
+    api_list = yaml.safe_load(open('../datas/api_list.yaml'))
 
+    # def __init__(self):
+    #     pass
 
-    def get_code(self):
-        pass
+    def get_code(self,params):
+        return self.send_post(url=self.api_list['code'],params=params)
 
     def login(self):
         pass

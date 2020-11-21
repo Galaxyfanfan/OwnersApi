@@ -1,13 +1,16 @@
-from api_page.base_api import BaseApi
+import hashlib
+import time
 
 
-class WeWorkUtils(BaseApi):
-    def get_token(self, corpsecret, corpid="wwe653983e4c732493"):
-        data = {
-            "method": "get",
-            "url": f"https://qyapi.weixin.qq.com/cgi-bin/gettoken",
-            "params": {"corpid": corpid, "corpsecret": corpsecret}
-        }
-        print('get===token')
-        result = self.send_api(data)
-        return result["access_token"]
+class WeWorkUtils:
+    #字符串 md5加密
+    def md5vale(self,key):
+        input_name = hashlib.md5()
+        input_name.update(key.encode("utf-8"))
+        return input_name.hexdigest()
+
+    #获取 毫秒级 时间戳
+    def get_timestamp(self):
+        t = int(round(time.time() * 1000))
+        print(f'时间戳：{t}')  # 毫秒级时间戳
+        return t
