@@ -1,14 +1,16 @@
 import json
 import yaml
 import requests
-import time
+from datas.config import Config
 from api_page.wework_utils import WeWorkUtils
 
 class BaseApi:
     """
     api 的抽象类
     """
-    env = yaml.safe_load(open('../datas/env.yaml'))
+
+    def __init__(self):
+        self.config = Config()
 
     #基础 get请求
     def send_get(self,url,params: dict):
@@ -22,9 +24,9 @@ class BaseApi:
         """
         发送 api
         """
-        appkey = self.env['appkey']
-        uuid = self.env['uuid']
-        token = self.env['token']
+        appkey = self.config.appkey
+        uuid = self.config.uuid
+        token = self.config.token
         t = WeWorkUtils.get_timestamp(self)
         t = str(t)
         sign_str = appkey + uuid + token + t
@@ -32,7 +34,7 @@ class BaseApi:
 
         data = {
             "method": method,
-            "url": self.env['baseurl'] + url,
+            "url": self.config.baseurl + url,
             "json": params,
             "headers": {
                 "appkey": appkey,
@@ -40,13 +42,13 @@ class BaseApi:
                 "t": t,
                 "uuid": uuid,
                 "sign": sign,
-                "uid": '',
+                "uid": self.config.uid,
             }
         }
 
-        print('------------请求数据--------------')
+        print('/-------------------请求数据-------------------/')
         print(json.dumps(data, indent=2,ensure_ascii=False))#对简单数据类型进行编码
-        print('------------返回数据--------------')
+        print('/-------------------返回数据-------------------/')
         response = requests.request(**data).json()
         print(json.dumps(response, indent=2,ensure_ascii=False))
 

@@ -1,0 +1,39 @@
+hasContract: '1'
+token: 2c68a1b38d37555961835e10c4f53c66
+userInfo:
+  acc_id: '19292999229'
+  appList: 1
+  callLog: 1
+  cellphone: '19292999229'
+  cid: 357
+  contact: 1
+  createtime: 1605509183
+  credit_lock: 0
+  customer_service_tel: '13023663333'
+  device: 1
+  device_id: 378
+  face: 0.5
+  flow_id: 10930
+  gongan_face: 0.7
+  id: 9645
+  identity_card_num: '320926197408243778'
+  is_authed: 1
+  logintime: 1606029897
+  logintime_text: '2020-11-22 15:24:57'
+  marital: null
+  position: 1
+  relation: 1
+  saler_id: 1595
+  sms: 1
+  status: 1
+  updatetime: 1606029897
+  upload_applist: 1
+  upload_calllog: 1
+  upload_contact: 1
+  upload_device: 1
+  upload_position: 1
+  upload_sms: 1
+  username: 卞伯春
+  yx_token: 63fc139a821edb2cb3ef51c672907e14
+  yx_video_accid: '19292999229'
+  yx_video_token: 35a3188a81df218f6d4f7ebc70c85361a5cd7f89

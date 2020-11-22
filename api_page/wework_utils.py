@@ -1,6 +1,8 @@
 import hashlib
 import time
 
+import yaml
+
 
 class WeWorkUtils:
     #字符串 md5加密
@@ -14,3 +16,7 @@ class WeWorkUtils:
         t = int(round(time.time() * 1000))
         print(f'时间戳：{t}')  # 毫秒级时间戳
         return t
+
+    def save_user_info(self,data):
+        with open('../datas/userinfo.yaml', mode='w', encoding='utf-8') as file:
+            yaml.dump(data, file, allow_unicode=True)

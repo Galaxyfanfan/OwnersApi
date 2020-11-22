@@ -7,12 +7,23 @@ galaxy - 当前用户名;
 from api_page.login_page import LoginPage
 
 class TestLogin():
+    def setup_class(self):
+        self.login = LoginPage()
 
     def test_code(self):
-        login = LoginPage()
         params = {
             'cellphone':19292999229
         }
-        login_message = login.get_code(params)
-
+        login_message = self.login.get_code(params)
         assert login_message['code'] in [0, 400]
+
+    def test_login(self):
+        params = {
+            "cellphone": 19292999229,
+            "smsCode":1234
+        }
+        login_message = self.login.login(params)
+        assert login_message['code'] == 200
+
+    def test_logout(self):
+        self.login.logout()
