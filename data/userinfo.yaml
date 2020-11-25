@@ -1,0 +1,39 @@
+hasContract: '1'
+token: 9ab8e482ef0eba53857f83216729477e
+userInfo:
+  acc_id: '16896689007'
+  appList: 0
+  callLog: 0
+  cellphone: '16896689007'
+  cid: 338
+  contact: 1
+  createtime: 1605165066
+  credit_lock: 0
+  customer_service_tel: '13023663333'
+  device: 1
+  device_id: 437
+  face: 0.5
+  flow_id: 10910
+  gongan_face: 0.7
+  id: 9624
+  identity_card_num: '320621197902174319'
+  is_authed: 1
+  logintime: 1606291551
+  logintime_text: '2020-11-25 16:05:51'
+  marital: null
+  position: 1
+  relation: 1
+  saler_id: 1628
+  sms: 0
+  status: 1
+  updatetime: 1606291551
+  upload_applist: 0
+  upload_calllog: 0
+  upload_contact: 1
+  upload_device: 1
+  upload_position: 1
+  upload_sms: 0
+  username: 顾庆余
+  yx_token: 6353bb6c329c562a4b5fe9937859e0fd
+  yx_video_accid: '16896689007'
+  yx_video_token: 96ee3cf38509a162383705376b2dbbe467c861a5

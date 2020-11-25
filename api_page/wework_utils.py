@@ -14,9 +14,9 @@ class WeWorkUtils:
     #获取 毫秒级 时间戳
     def get_timestamp(self):
         t = int(round(time.time() * 1000))
-        print(f'时间戳：{t}')  # 毫秒级时间戳
+        # print(f'时间戳：{t}')  # 毫秒级时间戳
         return t
 
     def save_user_info(self,data):
-        with open('../datas/userinfo.yaml', mode='w', encoding='utf-8') as file:
+        with open('../data/userinfo.yaml', mode='w', encoding='utf-8') as file:
             yaml.dump(data, file, allow_unicode=True)

@@ -1,13 +1,15 @@
 import json
 import yaml
 import requests
-from datas.config import Config
+from data.config import Config
 from api_page.wework_utils import WeWorkUtils
 
 class BaseApi:
     """
     api 的抽象类
     """
+
+    api_list = yaml.safe_load(open('../data/api_list.yaml'))
 
     def __init__(self):
         self.config = Config()
@@ -24,6 +26,8 @@ class BaseApi:
         """
         发送 api
         """
+
+        #请求头
         appkey = self.config.appkey
         uuid = self.config.uuid
         token = self.config.token
@@ -31,6 +35,11 @@ class BaseApi:
         t = str(t)
         sign_str = appkey + uuid + token + t
         sign = WeWorkUtils.md5vale(self,sign_str)
+
+        #params
+        # if self.config.islogin:
+        #     params['appkey'] = appkey
+        #     params['token'] = token
 
         data = {
             "method": method,
