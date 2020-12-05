@@ -21,6 +21,7 @@ class TestLogin():
         login_message = self.login.get_code(params)
         assert login_message['code'] == 200
 
+    @pytest.mark.skip()
     @allure.story('登录')
     def test_login(self):
         if self.login.config.islogin :

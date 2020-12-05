@@ -26,6 +26,14 @@ class LoginPage(BaseApi):
             #登录数据保存
             print('登录数据保存')
             data = response['data']
+            self.config.userinfo = data
+            self.config.token = data['token']
+            self.config.uid = str(data['userInfo']['id'])
+            self.config.username = data['userInfo']['username']
+            self.config.cellphone = data['userInfo']['cellphone']
+            self.config.idno = data['userInfo']['identity_card_num']
+            self.config.accid = data['userInfo']['yx_video_accid']
+
             WeWorkUtils.save_user_info(self, data)
 
         return response

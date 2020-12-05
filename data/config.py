@@ -6,8 +6,24 @@ galaxy - 当前用户名;
 """
 import yaml
 import os
-
+import threading
 class Config(object):
+    #----------------单例-------------------
+    _instance_lock = threading.Lock()
+
+    def __init__(self):
+        pass
+
+
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(Config, "_instance"):
+            with Config._instance_lock:
+                if not hasattr(Config, "_instance"):
+                    Config._instance = object.__new__(cls)
+        return Config._instance
+
+    #-----------------------------------------
+
     basedir = os.path.dirname(__file__)
     path = basedir + '/userinfo.yaml'
     userinfo = yaml.safe_load(open(path))
