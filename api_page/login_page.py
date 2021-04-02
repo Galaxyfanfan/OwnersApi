@@ -34,7 +34,7 @@ class LoginPage(BaseApi):
             self.config.idno = data['userInfo']['identity_card_num']
             self.config.accid = data['userInfo']['yx_video_accid']
 
-            WeWorkUtils.save_user_info(self, data)
+            WeWorkUtils.save_user_info( data)
 
         return response
     """
@@ -51,7 +51,7 @@ class LoginPage(BaseApi):
     """
     def logout(self):
         data = {}
-        WeWorkUtils.save_user_info(self,data)
+        WeWorkUtils.save_user_info(data)
         self.config.uid = ''
         self.config.token = ''
         self.config.cellphone = ''

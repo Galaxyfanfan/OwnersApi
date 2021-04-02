@@ -20,7 +20,7 @@ class TestHome(object):#需要继承object 不然无法调用login
 
     @allure.story('首页 状态')  # story定义用户场景
     @allure.severity(allure.severity_level.NORMAL)
-    def test_model_status(self,login):
+    def test_model_status(self):
         home_message = self.home.home_status()
         assert home_message['code'] == 200
 
@@ -30,7 +30,6 @@ class TestHome(object):#需要继承object 不然无法调用login
     def test_get_credit_lists(self,login):
         home_message = self.home.get_credit_lists()
         assert home_message['code'] == 200
-
 
     # ------------------------合同签署--------------------------#
     @allure.story('获取合同列表')

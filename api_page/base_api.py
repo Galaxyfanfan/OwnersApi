@@ -1,7 +1,7 @@
 import json
 import yaml
 import requests
-from data.config import Config
+from config.config import Config
 from api_page.wework_utils import WeWorkUtils
 
 class BaseApi:
@@ -9,10 +9,28 @@ class BaseApi:
     api 的抽象类
     """
 
-    api_list = yaml.safe_load(open('../data/api_list.yaml'))
+    api_list = yaml.safe_load(open('../config/api_list.yaml'))
 
     def __init__(self):
         self.config = Config()
+
+        #请求头
+        appkey = self.config.appkey
+        uuid = self.config.uuid
+        token = self.config.token
+        t = WeWorkUtils.get_timestamp()
+        t = str(t)
+        sign_str = appkey + uuid + token + t
+        sign = WeWorkUtils.md5vale(sign_str)
+
+        self.headers = {
+                "appkey": appkey,
+                "token": token,
+                "t": t,
+                "uuid": uuid,
+                "sign": sign,
+                "uid": self.config.uid,
+            }
 
     #基础 get请求
     def send_get(self,url,params: dict):
@@ -27,32 +45,18 @@ class BaseApi:
         发送 api
         """
 
-        #请求头
-        appkey = self.config.appkey
-        uuid = self.config.uuid
-        token = self.config.token
-        t = WeWorkUtils.get_timestamp(self)
-        t = str(t)
-        sign_str = appkey + uuid + token + t
-        sign = WeWorkUtils.md5vale(self,sign_str)
-
         #params
         # if self.config.islogin:
         #     params['appkey'] = appkey
         #     params['token'] = token
+        if 'http' not in url:
+            url = self.config.baseurl + url
 
         data = {
             "method": method,
-            "url": self.config.baseurl + url,
+            "url": url,
             "json": params,
-            "headers": {
-                "appkey": appkey,
-                "token": token,
-                "t": t,
-                "uuid": uuid,
-                "sign": sign,
-                "uid": self.config.uid,
-            }
+            "headers": self.headers
         }
 
         print('/-------------------请求数据-------------------/')

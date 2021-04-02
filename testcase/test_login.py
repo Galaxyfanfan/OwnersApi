@@ -6,10 +6,33 @@ galaxy - 当前用户名;
 """
 import allure
 import pytest
+import yaml
 
 from api_page.login_page import LoginPage
+
+
+def getLoginData():
+    login_dic = yaml.safe_load(open('../testdata/login.yaml'))
+    phone_list = login_dic['phone']
+    code_list = login_dic['code']
+
+    login_list = []
+    for phone in phone_list:
+        phone_num = phone['num']
+        phone_status = phone['code']
+        for code in code_list:
+            code_num = code['num']
+            code_status = code['code']
+            if phone_status == 200:
+                login_list.append((phone_num, code_num, [code_status]))
+            else:
+                login_list.append((phone_num, code_num, [phone_status, code_status]))
+
+    return login_list
+
 @allure.feature('登录')# feature定义功能
 class TestLogin():
+
     def setup_class(self):
         self.login = LoginPage()
 
@@ -44,3 +67,17 @@ class TestLogin():
     def test_get_last_app(self):
         login_message = self.login.get_last_app()
         assert login_message['code'] == 200
+
+    @allure.story('登录用例验证')
+    @pytest.mark.parametrize("phone,code,back_assert",getLoginData())
+    # @pytest.mark.parametrize("phone,code,back_assert", [('16896689007','1234',[200])])
+    def test_login_verify(self,phone,code,back_assert):
+        params = {
+            "cellphone": phone,
+            "smsCode":code
+        }
+        self.login.headers = {
+            'appkey' : '123'
+        }#登录的时候没做校验
+        login_message = self.login.login(params)
+        assert login_message['code'] in back_assert

@@ -5,8 +5,15 @@ galaxy - 当前用户名;
 2020/11/23 2:39 下午 
 """
 import allure
+import pytest
 
 from api_page.user_page import UserPage
+
+#fixture 传递数据
+@pytest.fixture(params=[6000, 10000, 20000])
+def amount(request):
+    return request.param
+
 @allure.feature('个人中心')
 class TestUser():
     # ------------------------（个人中心）--------------------------#
@@ -90,8 +97,10 @@ class TestUser():
         message = self.user.get_claims_histroy(flowid)
         assert message['code'] == 200
 
+
+
     @allure.story('提交理赔')
-    def test_commit_claims(self):
+    def test_commit_claims(self,amount):
         with allure.step('理赔列表'):
             list = self.user.get_claims_list()
             if list['code'] == 200:
@@ -105,7 +114,7 @@ class TestUser():
                 if len(files) > 0:
                     id = files[0]['id']
         params = {
-            'amount':6000,
+            'amount': amount,
             'departid':departid,
             'files':[],
             'flowid':flowid,

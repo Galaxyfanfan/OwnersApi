@@ -6,12 +6,29 @@ galaxy - 当前用户名;
 """
 from time import sleep
 
-import pytest
+import openpyxl
+
 from api_page.login_page import LoginPage
 from api_page.base_api import BaseApi
-from data.config import Config
+from config.config import Config
+from typing import List
+import pytest
 
-@pytest.fixture(scope='session')
+
+def pytest_collection_modifyitems(
+        session: "Session", config: "Config", items: List["Item"]
+) -> None:
+    # 修改编码
+    # 将 编码格式unicode转化为中文
+    for item in items:
+        item.name = item.name.encode('utf-8').decode('unicode-escape')
+        item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
+
+
+
+#scope='session' 范围：testcase文件夹下多py文件
+#autouse="true" 自动执行 自动运用到所有测试方法中
+@pytest.fixture(scope='session')#,autouse="true"
 def login():
     print("登录")
     params = {
