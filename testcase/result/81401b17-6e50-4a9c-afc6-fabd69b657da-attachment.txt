@@ -1,0 +1,88 @@
+登录
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/user/login",
+  "json": {
+    "cellphone": 16896689007,
+    "smsCode": 1234
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "6f05e6e8e9bbd7117829809864f310c0",
+    "t": "1607162378280",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "db258a74a0a89ac0cae6e9efe0c71215",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "token": "03605457c2c060a5bf3861586cc36ed6",
+    "userInfo": {
+      "id": 9624,
+      "cid": 338,
+      "username": "顾庆余",
+      "identity_card_num": "320621197902174319",
+      "cellphone": "16896689007",
+      "is_authed": 1,
+      "saler_id": 1628,
+      "device_id": 349,
+      "status": 1,
+      "createtime": 1605165066,
+      "updatetime": 1607162358,
+      "logintime": 1607162358,
+      "contact": 1,
+      "sms": 1,
+      "position": 1,
+      "appList": 1,
+      "device": 1,
+      "callLog": 1,
+      "upload_contact": 1,
+      "upload_sms": 1,
+      "upload_position": 1,
+      "upload_applist": 1,
+      "upload_device": 1,
+      "upload_calllog": 1,
+      "flow_id": 10910,
+      "relation": 1,
+      "acc_id": "16896689007",
+      "yx_token": "6353bb6c329c562a4b5fe9937859e0fd",
+      "yx_video_accid": "16896689007",
+      "yx_video_token": "96ee3cf38509a162383705376b2dbbe467c861a5",
+      "credit_lock": 0,
+      "marital": null,
+      "face": 0.5,
+      "gongan_face": 0.7,
+      "customer_service_tel": "13023663333",
+      "logintime_text": "2020-12-05 17:59:18"
+    },
+    "hasContract": "1"
+  }
+}
+登录数据保存
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/user/modelState",
+  "json": {
+    "id": "9624"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "6f05e6e8e9bbd7117829809864f310c0",
+    "t": "1607162379486",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "8ba7a65cb7a2fb5d8491c828ea53e368",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 10000,
+  "msg": "请重新登录！",
+  "data": []
+}

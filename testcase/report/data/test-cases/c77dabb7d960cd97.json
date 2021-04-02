@@ -1,0 +1,110 @@
+{
+  "uid" : "c77dabb7d960cd97",
+  "name" : "test_model_status",
+  "fullName" : "test_home.TestHome#test_model_status",
+  "historyId" : "ba118a9422c7e1e0c311a46cbb74d061",
+  "time" : {
+    "start" : 1606290058468,
+    "stop" : 1606290058557,
+    "duration" : 89
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10000 == 200",
+  "statusTrace" : "self = <test_home.TestHome object at 0x10f54de50>\n\n    @allure.story('首页 状态')  # story定义用户场景\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_model_status(self):\n        home_message = self.home.home_status()\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606290058467,
+      "stop" : 1606290058467,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10000 == 200",
+    "statusTrace" : "self = <test_home.TestHome object at 0x10f54de50>\n\n    @allure.story('首页 状态')  # story定义用户场景\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_model_status(self):\n        home_message = self.home.home_status()\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:21: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1f3f097ddf6d79a",
+      "name" : "stdout",
+      "source" : "e1f3f097ddf6d79a.txt",
+      "type" : "text/plain",
+      "size" : 521
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606290059384,
+      "stop" : 1606290059384,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "story",
+    "value" : "首页 状态"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "91794-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c77dabb7d960cd97.json",
+  "parameterValues" : [ ]
+}

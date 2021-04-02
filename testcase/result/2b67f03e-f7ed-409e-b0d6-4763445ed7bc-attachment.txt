@@ -1,0 +1,22 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Contractwk/getlists",
+  "json": {
+    "id": ""
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "",
+    "t": "1606290020988",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "aa7d70190ae76df48af0788698f58e39",
+    "uid": ""
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 10000,
+  "msg": "请重新登录！",
+  "data": []
+}

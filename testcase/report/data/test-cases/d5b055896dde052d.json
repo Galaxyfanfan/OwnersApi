@@ -1,0 +1,176 @@
+{
+  "uid" : "d5b055896dde052d",
+  "name" : "test_code",
+  "fullName" : "test_login.TestLogin#test_code",
+  "historyId" : "eb083c8f7d6a141b45c1e2b9f9cadc16",
+  "time" : {
+    "start" : 1606292251110,
+    "stop" : 1606292251197,
+    "duration" : 87
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 400 == 200",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x10cdaabb0>\n\n    @allure.story('获取登录验证码')\n    def test_code(self):\n        params = {\n            'cellphone':16896689007\n        }\n        login_message = self.login.get_code(params)\n>       assert login_message['code'] == 200\nE       assert 400 == 200\n\ntest_login.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606292251109,
+      "stop" : 1606292251109,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 400 == 200",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x10cdaabb0>\n\n    @allure.story('获取登录验证码')\n    def test_code(self):\n        params = {\n            'cellphone':16896689007\n        }\n        login_message = self.login.get_code(params)\n>       assert login_message['code'] == 200\nE       assert 400 == 200\n\ntest_login.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5627b4a41c213ffe",
+      "name" : "stdout",
+      "source" : "5627b4a41c213ffe.txt",
+      "type" : "text/plain",
+      "size" : 581
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606292251363,
+      "stop" : 1606292251363,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取登录验证码"
+  }, {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf9d9dbee54a146f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606291893071,
+        "stop" : 1606291893150,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "8084c47c714c1fd7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606291567834,
+        "stop" : 1606291567925,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "dc348df258c0e45f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606291405326,
+        "stop" : 1606291405404,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "33b1b35ec8576460",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606290059386,
+        "stop" : 1606290059458,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "4868fdf4f9d5f501",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606290021638,
+        "stop" : 1606290021733,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "8c3301380699b444",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606289480674,
+        "stop" : 1606289480754,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "72a0e68a5928d4f8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1606288926669,
+        "stop" : 1606288926742,
+        "duration" : 73
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d5b055896dde052d.json",
+  "parameterValues" : [ ]
+}

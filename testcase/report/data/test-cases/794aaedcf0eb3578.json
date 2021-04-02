@@ -1,0 +1,167 @@
+{
+  "uid" : "794aaedcf0eb3578",
+  "name" : "test_set_all_readr",
+  "fullName" : "test_user.TestUser#test_set_all_readr",
+  "historyId" : "5f5b49054468b37a2f33aa3fc6e94af0",
+  "time" : {
+    "start" : 1606292251662,
+    "stop" : 1606292251762,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606292251365,
+      "stop" : 1606292251365,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d478dc9b127e9726",
+      "name" : "stdout",
+      "source" : "d478dc9b127e9726.txt",
+      "type" : "text/plain",
+      "size" : 550
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606292252982,
+      "stop" : 1606292252982,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人中心"
+  }, {
+    "name" : "story",
+    "value" : "设置全部已读"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7003d245eac0bc55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291893561,
+        "stop" : 1606291893683,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "e86a4e44b66bb3d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606291568508,
+        "stop" : 1606291568584,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "67f4fbf930d695ab",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606291405949,
+        "stop" : 1606291406029,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "3da6b8f2355068c2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606290059984,
+        "stop" : 1606290060055,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "d5700ae1750d422a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606290022333,
+        "stop" : 1606290022435,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "c35ade02fd86d76c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606289481312,
+        "stop" : 1606289481388,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "75c165c3f43356f2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606288927287,
+        "stop" : 1606288927363,
+        "duration" : 76
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "794aaedcf0eb3578.json",
+  "parameterValues" : [ ]
+}

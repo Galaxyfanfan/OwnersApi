@@ -1,0 +1,85 @@
+#------------------------登录 相关--------------------------#
+#获取登录验证码
+code: "user/sendSms"
+#登录
+login: "user/login"
+
+#------------------------信息 相关--------------------------#
+#手机信息
+client_device: "client/device"
+#获取应用信息
+get_last_app: "app/getLastApp"
+
+#------------------------（首页）--------------------------#
+#首页 状态
+model_state: "user/modelState"
+
+#------------------------征信授权书签署--------------------------#
+#获取征信授权书列表
+get_credit_lists: "Creditqurey/getLists"
+#获取合同pdf
+get_production_pdf : "Hardwriting/productionPdf"
+#获取验证码
+get_verification_code : "Hardwriting/getVerificationCode"
+#校验验证码
+check_verification_code : "Hardwriting/checkVerificationCode"
+#获取身份证列表
+get_idno_img : "Hardwriting/getIdnoImg"
+
+#------------------------合同签署--------------------------#
+#获取合同列表
+get_contract_lists: "Contractwk/getlists"
+
+#------------------------视频面签--------------------------#
+#获取视频面签列表
+call_lists : "yunxin/callLists"
+#申请面签
+start_call : "yunxin/startCall"
+
+
+#------------------------增信补充--------------------------#
+#获取七牛云上传token
+get_upload_token : "upload/getUpToken"
+#获取资料库列表
+get_picture_list : "signing/getPicList"
+#上传图片
+upload_picture : "signing/uploadPic"
+
+
+
+
+#------------------------（个人中心）--------------------------#
+#------------------------消息--------------------------#
+#获取消息未读数
+get_unread_number : "news/getUnreadNum"
+#获取消息列表
+get_news_list : "news/getNewsList"
+#查看消息详情
+get_news_info : "news/getNewsFlowInfo"
+#设置全部已读
+set_all_read : "news/setAllRead"
+
+#------------------------还款详情--------------------------#
+#还款列表
+get_repayloan_list : "bankcard/repayloan"
+#还款卡信息
+selcard : "Bankcard/selcard"
+#还款计划表
+repayment_plan : "bankcard/repaymentplan"
+
+#------------------------车险理赔--------------------------#
+#理赔列表
+get_claims_list : "Claims/getClaimsList"
+#理赔详情
+get_claims_detail : "Claims/getClaimsDetail"
+#理赔历史记录
+get_claims_histroy : "Claims/getClaimsHistroy"
+#提交理赔
+commit_claims : "Claims/commitClaims"
+
+
+
+
+
+
+

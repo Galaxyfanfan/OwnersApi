@@ -1,0 +1,271 @@
+[ {
+  "uid" : "c24dfec4652ecbc0",
+  "name" : "test_get_idno_img",
+  "time" : {
+    "start" : 1606292250475,
+    "stop" : 1606292250564,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26c1083fddec0e49",
+  "name" : "test_get_upload_token",
+  "time" : {
+    "start" : 1606292250838,
+    "stop" : 1606292250919,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a1cf0e24c22ad6",
+  "name" : "test_upload_picture",
+  "time" : {
+    "start" : 1606292251013,
+    "stop" : 1606292251106,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e3e089f24940622",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1606292251262,
+    "stop" : 1606292251262,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ec75629b6140e4",
+  "name" : "test_get_claims_list",
+  "time" : {
+    "start" : 1606292252205,
+    "stop" : 1606292252280,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de9d5c3a3d46d3ac",
+  "name" : "test_model_status",
+  "time" : {
+    "start" : 1606292250083,
+    "stop" : 1606292250220,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dbfd2dce7adc168",
+  "name" : "test_repayment_plan",
+  "time" : {
+    "start" : 1606292252028,
+    "stop" : 1606292252203,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f4341cd1cfbc9e8",
+  "name" : "test_get_claims_detail",
+  "time" : {
+    "start" : 1606292252282,
+    "stop" : 1606292252464,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e9b8d5d9608f2c4",
+  "name" : "test_start_call",
+  "time" : {
+    "start" : 1606292250654,
+    "stop" : 1606292250836,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b31ac7c3aa1e2e2f",
+  "name" : "test_get_claims_histroy",
+  "time" : {
+    "start" : 1606292252467,
+    "stop" : 1606292252652,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "982862c87b1153ed",
+  "name" : "test_get_picture_list",
+  "time" : {
+    "start" : 1606292250921,
+    "stop" : 1606292251010,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd9b6728365ae071",
+  "name" : "test_get_contract_lists",
+  "time" : {
+    "start" : 1606292250335,
+    "stop" : 1606292250467,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2519b995b632f15",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1606292251263,
+    "stop" : 1606292251263,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cf841a8f1351396f",
+  "name" : "test_call_lists",
+  "time" : {
+    "start" : 1606292250566,
+    "stop" : 1606292250652,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1807b7931f3c24cc",
+  "name" : "test_get_production_pdf",
+  "time" : {
+    "start" : 1606292250469,
+    "stop" : 1606292250469,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2bb6d718a60712b4",
+  "name" : "test_commit_claims",
+  "time" : {
+    "start" : 1606292252653,
+    "stop" : 1606292252932,
+    "duration" : 279
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b0b1824bcd2305d9",
+  "name" : "test_get_news_info",
+  "time" : {
+    "start" : 1606292251560,
+    "stop" : 1606292251661,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55b2eac29ea211db",
+  "name" : "test_get_verification_code",
+  "time" : {
+    "start" : 1606292250471,
+    "stop" : 1606292250471,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e2dee77774febf39",
+  "name" : "test_selcard",
+  "time" : {
+    "start" : 1606292251852,
+    "stop" : 1606292252025,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46c3d8a9e288502b",
+  "name" : "test_get_last_app",
+  "time" : {
+    "start" : 1606292251266,
+    "stop" : 1606292251362,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d90f7ccee7efd51e",
+  "name" : "test_get_credit_lists",
+  "time" : {
+    "start" : 1606292250222,
+    "stop" : 1606292250332,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d5b055896dde052d",
+  "name" : "test_code",
+  "time" : {
+    "start" : 1606292251110,
+    "stop" : 1606292251197,
+    "duration" : 87
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6972b126dc72a3e9",
+  "name" : "test_get_news_list",
+  "time" : {
+    "start" : 1606292251456,
+    "stop" : 1606292251558,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28288d8916cdd22a",
+  "name" : "test_get_repayloan_list",
+  "time" : {
+    "start" : 1606292251764,
+    "stop" : 1606292251850,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbcd41cea9d80168",
+  "name" : "test_check_verification_code",
+  "time" : {
+    "start" : 1606292250472,
+    "stop" : 1606292250472,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6f8df8518692d299",
+  "name" : "test_get_unread_number",
+  "time" : {
+    "start" : 1606292251365,
+    "stop" : 1606292251454,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "794aaedcf0eb3578",
+  "name" : "test_set_all_readr",
+  "time" : {
+    "start" : 1606292251662,
+    "stop" : 1606292251762,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

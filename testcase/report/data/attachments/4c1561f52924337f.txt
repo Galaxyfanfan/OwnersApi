@@ -1,0 +1,22 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/getClaimsList",
+  "json": {
+    "id": ""
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "",
+    "t": "1606289481733",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "96b716340cc1768c1c6332a3f22c3ef5",
+    "uid": ""
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": []
+}

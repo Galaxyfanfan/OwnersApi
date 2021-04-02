@@ -1,0 +1,31 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/bankcard/repayloan",
+  "json": {
+    "idno": "320621197902174319"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606291893685",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "0f7134b6da07ad43ffddaf2103d19b32",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "flow_id": 10910,
+      "car_info": "奔驰GL级 2014款 4.7T 自动 GL550 美规版"
+    },
+    {
+      "flow_id": 10911,
+      "car_info": "大众 探影 2020款 1.5L 自动 R-Line"
+    }
+  ]
+}

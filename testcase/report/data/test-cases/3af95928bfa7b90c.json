@@ -1,0 +1,107 @@
+{
+  "uid" : "3af95928bfa7b90c",
+  "name" : "test_upload_picture",
+  "fullName" : "test_home.TestHome#test_upload_picture",
+  "historyId" : "18b07dc92618c60d72b23ac9121b07ef",
+  "time" : {
+    "start" : 1606276368183,
+    "stop" : 1606276368255,
+    "duration" : 72
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10000 == 200",
+  "statusTrace" : "self = <test_home.TestHome object at 0x107fea1f0>\n\n    @allure.story('上传图片')\n    def test_upload_picture(self):\n        params = {\n            'address':'中国浙江省杭州市',\n            'city':'杭州市',\n            'lon_lat': '120, 30',\n            'type': '96',\n            'url': '202011/985_22_2420201122164524621.png'\n        }\n        home_message = self.home.upload_picture(params)\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:94: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606276367300,
+      "stop" : 1606276367300,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10000 == 200",
+    "statusTrace" : "self = <test_home.TestHome object at 0x107fea1f0>\n\n    @allure.story('上传图片')\n    def test_upload_picture(self):\n        params = {\n            'address':'中国浙江省杭州市',\n            'city':'杭州市',\n            'lon_lat': '120, 30',\n            'type': '96',\n            'url': '202011/985_22_2420201122164524621.png'\n        }\n        home_message = self.home.upload_picture(params)\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:94: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34500957350ad8c5",
+      "name" : "stdout",
+      "source" : "34500957350ad8c5.txt",
+      "type" : "text/plain",
+      "size" : 673
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606276368260,
+      "stop" : 1606276368260,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "story",
+    "value" : "上传图片"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "85732-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3af95928bfa7b90c.json",
+  "parameterValues" : [ ]
+}

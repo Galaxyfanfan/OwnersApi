@@ -1,0 +1,92 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/signing/getPicList",
+  "json": {},
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "035fa8b0e56b0c083083745b465a6d65",
+    "t": "1607166142028",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "80acc2eb97a52b6818a25a4c0d2d1d2f",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "name": "住址照片",
+      "node": [
+        {
+          "id": 95,
+          "pid": 94,
+          "name": "单位家访",
+          "type": 2,
+          "property": 2,
+          "is_show": 1,
+          "is_choose": 1,
+          "spacer": "",
+          "childlist": []
+        },
+        {
+          "id": 96,
+          "pid": 94,
+          "name": "住宅家访",
+          "type": 2,
+          "property": 2,
+          "is_show": 1,
+          "is_choose": 1,
+          "spacer": "",
+          "childlist": [
+            {
+              "url": "202011/985_22_2420201122164524621.png",
+              "pic_id": 24,
+              "valid": 1
+            }
+          ]
+        },
+        {
+          "id": 97,
+          "pid": 94,
+          "name": "客厅",
+          "type": 1,
+          "property": 2,
+          "is_show": 2,
+          "is_choose": 2,
+          "spacer": "",
+          "childlist": []
+        },
+        {
+          "id": 98,
+          "pid": 94,
+          "name": "卧室",
+          "type": 1,
+          "property": 2,
+          "is_show": 2,
+          "is_choose": 2,
+          "spacer": "",
+          "childlist": []
+        }
+      ]
+    },
+    {
+      "name": "证件照片",
+      "node": [
+        {
+          "id": 100,
+          "pid": 99,
+          "name": "房产资料",
+          "type": 2,
+          "property": 1,
+          "is_show": 1,
+          "is_choose": 2,
+          "spacer": "",
+          "childlist": []
+        }
+      ]
+    }
+  ]
+}

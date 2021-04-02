@@ -1,0 +1,107 @@
+{
+  "uid" : "4227ba016f17f17e",
+  "name" : "test_get_idno_img",
+  "fullName" : "test_home.TestHome#test_get_idno_img",
+  "historyId" : "42341f1669a3c4fa43888a629699c27a",
+  "time" : {
+    "start" : 1606289480131,
+    "stop" : 1606289480223,
+    "duration" : 92
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10000 == 200",
+  "statusTrace" : "self = <test_home.TestHome object at 0x110d25d30>\n\n    @allure.story('获取身份证列表')\n    def test_get_idno_img(self):\n        home_message = self.home.get_idno_img()\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:58: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606289479772,
+      "stop" : 1606289479772,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10000 == 200",
+    "statusTrace" : "self = <test_home.TestHome object at 0x110d25d30>\n\n    @allure.story('获取身份证列表')\n    def test_get_idno_img(self):\n        home_message = self.home.get_idno_img()\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:58: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd2d6f9a88c477ff",
+      "name" : "stdout",
+      "source" : "dd2d6f9a88c477ff.txt",
+      "type" : "text/plain",
+      "size" : 512
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606289480671,
+      "stop" : 1606289480671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "story",
+    "value" : "获取身份证列表"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "91389-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4227ba016f17f17e.json",
+  "parameterValues" : [ ]
+}

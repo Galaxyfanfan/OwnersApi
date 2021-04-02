@@ -1,0 +1,20 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/news/getUnreadNum",
+  "json": {},
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "f0796bcbc82157cca6a6bb62570a6b7e",
+    "t": "1606291568245",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "d97b6ef72227a14fe5dac03133682cee",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 10000,
+  "msg": "请重新登录！",
+  "data": []
+}

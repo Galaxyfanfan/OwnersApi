@@ -1,0 +1,112 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/getClaimsList",
+  "json": {
+    "id": "9624"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "aaa04e1b149586de1f14ffb607db0639",
+    "t": "1606291406396",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "d3b42522059df3e4060021f3ebf93132",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+      "create_time": " 2020-11-12",
+      "flowid": 10910
+    }
+  ]
+}
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/getClaimsDetail",
+  "json": {
+    "flowid": 10910
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "aaa04e1b149586de1f14ffb607db0639",
+    "t": "1606291406474",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "adeab3e63e100c6a41d4a33f4a6851b0",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+    "flowid": 10910,
+    "flow_id_claims": null,
+    "claims_amount": null,
+    "depart_id": 16,
+    "status": null,
+    "create_time": null,
+    "comment": null,
+    "minAmount": 5000,
+    "files": [
+      {
+        "id": 188,
+        "name": "事故认定书*",
+        "type": 2,
+        "property": 1,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 189,
+        "name": "维修清单*",
+        "type": 2,
+        "property": 1,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 190,
+        "name": "定损单*",
+        "type": 2,
+        "property": 1,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 191,
+        "name": "理赔单",
+        "type": 2,
+        "property": 2,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 192,
+        "name": "维修发票",
+        "type": 2,
+        "property": 2,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      }
+    ]
+  }
+}

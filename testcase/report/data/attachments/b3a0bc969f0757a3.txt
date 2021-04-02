@@ -1,0 +1,28 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/getClaimsList",
+  "json": {
+    "id": "9624"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606292252205",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "897f39acd346ca98b65106714bd08d49",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+      "create_time": " 2020-11-12",
+      "flowid": 10910
+    }
+  ]
+}

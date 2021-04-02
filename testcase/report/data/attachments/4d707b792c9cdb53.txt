@@ -1,0 +1,25 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Hardwriting/getIdnoImg",
+  "json": {},
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "aaa04e1b149586de1f14ffb607db0639",
+    "t": "1606291404675",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "9f7ac5033cecba129a411104eda46c39",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "idnoimg": "http://imgtest.maitianqiche.com/202011/1628_21_9720201112150840*1605164920167.png",
+      "idnoBackimg": "http://imgtest.maitianqiche.com/202011/1628_21_1420201112150905*1605164945015.png"
+    }
+  ]
+}

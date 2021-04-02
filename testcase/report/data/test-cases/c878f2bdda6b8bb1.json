@@ -1,0 +1,107 @@
+{
+  "uid" : "c878f2bdda6b8bb1",
+  "name" : "test_get_claims_histroy",
+  "fullName" : "test_user.TestUser#test_get_claims_histroy",
+  "historyId" : "edf561b4662d7d0a6fdc6f19489a06d7",
+  "time" : {
+    "start" : 1606289481860,
+    "stop" : 1606289481960,
+    "duration" : 100
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'flowid' referenced before assignment",
+  "statusTrace" : "self = <test_user.TestUser object at 0x110d4f5e0>\n\n    @allure.story('理赔历史记录')\n    def test_get_claims_histroy(self):\n        list = self.user.get_claims_list()\n        if list['code'] == 200:\n            if len(list['data']) > 0:\n                flowid = list['data'][0]['flowid']\n    \n>       message = self.user.get_claims_histroy(flowid)\nE       UnboundLocalError: local variable 'flowid' referenced before assignment\n\ntest_user.py:86: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606289481047,
+      "stop" : 1606289481047,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'flowid' referenced before assignment",
+    "statusTrace" : "self = <test_user.TestUser object at 0x110d4f5e0>\n\n    @allure.story('理赔历史记录')\n    def test_get_claims_histroy(self):\n        list = self.user.get_claims_list()\n        if list['code'] == 200:\n            if len(list['data']) > 0:\n                flowid = list['data'][0]['flowid']\n    \n>       message = self.user.get_claims_histroy(flowid)\nE       UnboundLocalError: local variable 'flowid' referenced before assignment\n\ntest_user.py:86: UnboundLocalError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "392b8122fd2b3968",
+      "name" : "stdout",
+      "source" : "392b8122fd2b3968.txt",
+      "type" : "text/plain",
+      "size" : 518
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606289482090,
+      "stop" : 1606289482090,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "理赔历史记录"
+  }, {
+    "name" : "feature",
+    "value" : "个人中心"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "91389-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c878f2bdda6b8bb1.json",
+  "parameterValues" : [ ]
+}

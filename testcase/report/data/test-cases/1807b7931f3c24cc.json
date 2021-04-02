@@ -1,0 +1,175 @@
+{
+  "uid" : "1807b7931f3c24cc",
+  "name" : "test_get_production_pdf",
+  "fullName" : "test_home.TestHome#test_get_production_pdf",
+  "historyId" : "3ebef642ef826973888cd6a1c010c609",
+  "time" : {
+    "start" : 1606292250469,
+    "stop" : 1606292250469,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('/Users/galaxy/Documents/python/OwnersApi/testcase/test_home.py', 37, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606292250081,
+      "stop" : 1606292250081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606292251107,
+      "stop" : 1606292251107,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取合同pdf"
+  }, {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "45e87c4e274ee58a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606291892434,
+        "stop" : 1606291892434,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "456443b6e9648c82",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606291567212,
+        "stop" : 1606291567212,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cff4b6bda78f318e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606291404668,
+        "stop" : 1606291404668,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3908f6aa2041c904",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606290058785,
+        "stop" : 1606290058785,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f192bc37516c8f96",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606290021067,
+        "stop" : 1606290021067,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b638a7abfd5a8404",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606289480125,
+        "stop" : 1606289480125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc517ccd81158dd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606288926134,
+        "stop" : 1606288926134,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c48941ff6f520aa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606288736216,
+        "stop" : 1606288736216,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23a2f8bf9ca3b68e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1606276367678,
+        "stop" : 1606276367678,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "1807b7931f3c24cc.json",
+  "parameterValues" : [ ]
+}

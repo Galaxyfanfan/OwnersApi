@@ -1,0 +1,22 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/news/getNewsFlowInfo",
+  "json": {
+    "id": 123
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606292251560",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "e6cead7d44990816777e848a40e8dc28",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": null
+}

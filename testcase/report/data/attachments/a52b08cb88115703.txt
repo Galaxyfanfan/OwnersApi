@@ -1,0 +1,28 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/signing/uploadPic",
+  "json": {
+    "address": "中国浙江省杭州市",
+    "city": "杭州市",
+    "lon_lat": "120, 30",
+    "type": "96",
+    "url": "202011/985_22_2420201122164524621.png"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "f0796bcbc82157cca6a6bb62570a6b7e",
+    "t": "1606291567719",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "74858fbc5b57e76a948c107d87b9c8f8",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": "22"
+  }
+}

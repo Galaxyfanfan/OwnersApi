@@ -1,0 +1,41 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/yunxin/callLists",
+  "json": {
+    "acc_id": "16896689007",
+    "idno": "320621197902174319",
+    "tel": "16896689007"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606292250566",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "6b97a0f5b6d0502c54b481ee1a03a00a",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "id": 5595,
+      "flow_id": 10910,
+      "bank_id": 34,
+      "bank_name": "天津工行",
+      "msg_id": 295,
+      "car_info": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+      "realname": "顾庆余",
+      "loan_lsh": "CS-YSCS-0087-2020111200003",
+      "term": 36,
+      "status": 4,
+      "relation": 1,
+      "is_guarantee": 0,
+      "create_time": 1605165066,
+      "await_id": 295
+    }
+  ]
+}

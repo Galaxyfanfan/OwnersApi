@@ -1,0 +1,61 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/bankcard/repayloan",
+  "json": {
+    "idno": "320621197902174319"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606292251853",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "3876c7a33be88f2431b6f5e1f238a99e",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "flow_id": 10910,
+      "car_info": "奔驰GL级 2014款 4.7T 自动 GL550 美规版"
+    },
+    {
+      "flow_id": 10911,
+      "car_info": "大众 探影 2020款 1.5L 自动 R-Line"
+    }
+  ]
+}
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Bankcard/selcard",
+  "json": {
+    "flowid": 10910
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606292251931",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "7461f8a57b35618f795e71480cbd581f",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "name": "顾庆余",
+    "bank": "天津工行",
+    "add": "",
+    "status": 2,
+    "cardnum": "123",
+    "express": "1",
+    "couriernum": "1"
+  }
+}

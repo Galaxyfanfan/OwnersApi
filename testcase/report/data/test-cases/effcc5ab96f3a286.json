@@ -1,0 +1,107 @@
+{
+  "uid" : "effcc5ab96f3a286",
+  "name" : "test_get_news_info",
+  "fullName" : "test_user.TestUser#test_get_news_info",
+  "historyId" : "01a929d0fde1f203287d6e838c075b99",
+  "time" : {
+    "start" : 1606291568423,
+    "stop" : 1606291568503,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10000 == 200",
+  "statusTrace" : "self = <test_user.TestUser object at 0x10ae0d580>\n\n    @allure.story('查看消息详情')\n    def test_get_news_info(self):\n        message = self.user.get_news_info(info_id=123)\n>       assert message['code'] == 200\nE       assert 10000 == 200\n\ntest_user.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606291568245,
+      "stop" : 1606291568245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10000 == 200",
+    "statusTrace" : "self = <test_user.TestUser object at 0x10ae0d580>\n\n    @allure.story('查看消息详情')\n    def test_get_news_info(self):\n        message = self.user.get_news_info(info_id=123)\n>       assert message['code'] == 200\nE       assert 10000 == 200\n\ntest_user.py:31: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7841910ba57f0a0d",
+      "name" : "stdout",
+      "source" : "7841910ba57f0a0d.txt",
+      "type" : "text/plain",
+      "size" : 563
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606291569628,
+      "stop" : 1606291569628,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人中心"
+  }, {
+    "name" : "story",
+    "value" : "查看消息详情"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "effcc5ab96f3a286.json",
+  "parameterValues" : [ ]
+}

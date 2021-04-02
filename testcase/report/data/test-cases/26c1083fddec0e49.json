@@ -1,0 +1,177 @@
+{
+  "uid" : "26c1083fddec0e49",
+  "name" : "test_get_upload_token",
+  "fullName" : "test_home.TestHome#test_get_upload_token",
+  "historyId" : "da128990f2b69cb49063e6a349405b0a",
+  "time" : {
+    "start" : 1606292250838,
+    "stop" : 1606292250919,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606292250081,
+      "stop" : 1606292250081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b68ffd3ffa4e1d1c",
+      "name" : "stdout",
+      "source" : "b68ffd3ffa4e1d1c.txt",
+      "type" : "text/plain",
+      "size" : 986
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606292251107,
+      "stop" : 1606292251107,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取七牛云上传token"
+  }, {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8354931d5804bf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291892810,
+        "stop" : 1606291892880,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "c6c80f3447c6cdd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291567556,
+        "stop" : 1606291567633,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "d9b8fa7c9434dcd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291405051,
+        "stop" : 1606291405141,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "23fde27ba3e3318d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290059107,
+        "stop" : 1606290059195,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "1105b5eb3ff29cff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290021365,
+        "stop" : 1606290021446,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "75b80236d98a7dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606289480410,
+        "stop" : 1606289480495,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "1bd52e86f7663c3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606288926399,
+        "stop" : 1606288926474,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "59362ab643b8d7e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606288736556,
+        "stop" : 1606288736646,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "29a20c5395d159d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606276367993,
+        "stop" : 1606276368078,
+        "duration" : 85
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26c1083fddec0e49.json",
+  "parameterValues" : [ ]
+}

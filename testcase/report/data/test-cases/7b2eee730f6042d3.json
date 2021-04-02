@@ -1,0 +1,101 @@
+{
+  "uid" : "7b2eee730f6042d3",
+  "name" : "test_get_claims_histroy",
+  "fullName" : "test_user.TestUser#test_get_claims_histroy",
+  "historyId" : "edf561b4662d7d0a6fdc6f19489a06d7",
+  "time" : {
+    "start" : 1606288927792,
+    "stop" : 1606288927870,
+    "duration" : 78
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'flowid' referenced before assignment",
+  "statusTrace" : "self = <test_user.TestUser object at 0x10eb23b80>\n\n    def test_get_claims_histroy(self):\n        list = self.user.get_claims_list()\n        if list['code'] == 200:\n            if len(list['data']) > 0:\n                flowid = list['data'][0]['flowid']\n    \n>       message = self.user.get_claims_histroy(flowid)\nE       UnboundLocalError: local variable 'flowid' referenced before assignment\n\ntest_user.py:85: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606288927029,
+      "stop" : 1606288927029,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'flowid' referenced before assignment",
+    "statusTrace" : "self = <test_user.TestUser object at 0x10eb23b80>\n\n    def test_get_claims_histroy(self):\n        list = self.user.get_claims_list()\n        if list['code'] == 200:\n            if len(list['data']) > 0:\n                flowid = list['data'][0]['flowid']\n    \n>       message = self.user.get_claims_histroy(flowid)\nE       UnboundLocalError: local variable 'flowid' referenced before assignment\n\ntest_user.py:85: UnboundLocalError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "886ad2a1296e1057",
+      "name" : "stdout",
+      "source" : "886ad2a1296e1057.txt",
+      "type" : "text/plain",
+      "size" : 518
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606288927961,
+      "stop" : 1606288927961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "91017-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b2eee730f6042d3.json",
+  "parameterValues" : [ ]
+}

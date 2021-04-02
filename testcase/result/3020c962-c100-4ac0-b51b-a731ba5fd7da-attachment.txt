@@ -1,0 +1,65 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/user/login",
+  "json": {
+    "cellphone": 16896689007,
+    "smsCode": 1234
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "f0796bcbc82157cca6a6bb62570a6b7e",
+    "t": "1606291567983",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "f0b3e8bcbbb54b1fe6215eaf1b2e55c1",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "userInfo": {
+      "id": 9624,
+      "cid": 338,
+      "username": "顾庆余",
+      "identity_card_num": "320621197902174319",
+      "cellphone": "16896689007",
+      "is_authed": 1,
+      "saler_id": 1628,
+      "device_id": 437,
+      "status": 1,
+      "createtime": 1605165066,
+      "updatetime": 1606291551,
+      "logintime": 1606291551,
+      "contact": 1,
+      "sms": 0,
+      "position": 1,
+      "appList": 0,
+      "device": 1,
+      "callLog": 0,
+      "upload_contact": 1,
+      "upload_sms": 0,
+      "upload_position": 1,
+      "upload_applist": 0,
+      "upload_device": 1,
+      "upload_calllog": 0,
+      "flow_id": 10910,
+      "relation": 1,
+      "acc_id": "16896689007",
+      "yx_token": "6353bb6c329c562a4b5fe9937859e0fd",
+      "yx_video_accid": "16896689007",
+      "yx_video_token": "96ee3cf38509a162383705376b2dbbe467c861a5",
+      "credit_lock": 0,
+      "marital": null,
+      "face": 0.5,
+      "gongan_face": 0.7,
+      "customer_service_tel": "13023663333",
+      "logintime_text": "2020-11-25 16:05:51"
+    },
+    "hasContract": "1"
+  }
+}
+登录数据保存

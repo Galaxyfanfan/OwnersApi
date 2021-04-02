@@ -1,0 +1,47 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Contractwk/getlists",
+  "json": {
+    "id": "9624"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "aaa04e1b149586de1f14ffb607db0639",
+    "t": "1606291391286",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "d96e4656480aabcc2f9b65fe7e2ddc3a",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "title": "三方协议",
+      "create_time": 1606291385,
+      "sign_status": 1,
+      "type": 1,
+      "relation": 1,
+      "flow_id": 10910,
+      "wk_flowid": "61b1d41d6a2442a9994b05f9c998c7cf",
+      "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+      "service_type": 2,
+      "isext": 1
+    },
+    {
+      "title": "浙农二方协议",
+      "create_time": 1606291387,
+      "sign_status": 1,
+      "type": 2,
+      "relation": 1,
+      "flow_id": 10910,
+      "wk_flowid": "d598471620c146d89210e918e490a594",
+      "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+      "service_type": 2,
+      "isext": 1
+    }
+  ]
+}

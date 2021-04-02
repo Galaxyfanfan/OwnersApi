@@ -1,0 +1,107 @@
+{
+  "uid" : "8519f6327dc91264",
+  "name" : "test_call_lists",
+  "fullName" : "test_home.TestHome#test_call_lists",
+  "historyId" : "20edaeab6653359d85815b4a1928cbcf",
+  "time" : {
+    "start" : 1606288736336,
+    "stop" : 1606288736459,
+    "duration" : 123
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10000 == 200",
+  "statusTrace" : "self = <test_home.TestHome object at 0x10c2f4e80>\n\n    @allure.story('获取视频面签列表')\n    def test_call_lists(self):\n        home_message = self.home.call_lists()\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606288735846,
+      "stop" : 1606288735846,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10000 == 200",
+    "statusTrace" : "self = <test_home.TestHome object at 0x10c2f4e80>\n\n    @allure.story('获取视频面签列表')\n    def test_call_lists(self):\n        home_message = self.home.call_lists()\n>       assert home_message['code'] == 200\nE       assert 10000 == 200\n\ntest_home.py:65: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90f3bb16207ccd16",
+      "name" : "stdout",
+      "source" : "90f3bb16207ccd16.txt",
+      "type" : "text/plain",
+      "size" : 557
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606288736815,
+      "stop" : 1606288736815,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "story",
+    "value" : "获取视频面签列表"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "90902-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8519f6327dc91264.json",
+  "parameterValues" : [ ]
+}

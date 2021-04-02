@@ -1,0 +1,32 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/upload/getUpToken",
+  "json": {
+    "t": 1606288926399
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "",
+    "t": "1606288926399",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "880e69a2bb7d44ca113c12123f3fd524",
+    "uid": ""
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "cdnurl": "http://imgtest.maitianqiche.com",
+    "uploadurl": "http://upload.qiniu.com",
+    "bucket": "test",
+    "maxsize": "100M",
+    "mimetype": "*",
+    "multipart": {
+      "token": "49kITNhz_dSg8irdBXdd4CZZMzeXDDv1aWDhHuMd:EVFlORL4_6gh7ZlQJ0ddzvLpX8g=:eyJzYXZlS2V5IjoidXBsb2Fkc1wvJCh5ZWFyKSQobW9uKSQoZGF5KVwvJChldGFnKSQoZXh0KSIsInNjb3BlIjoidGVzdCIsImRlYWRsaW5lIjoxNjA2Mjk0OTA5fQ=="
+    },
+    "multiple": true
+  }
+}

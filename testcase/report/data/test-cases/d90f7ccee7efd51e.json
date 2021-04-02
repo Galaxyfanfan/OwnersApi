@@ -1,0 +1,186 @@
+{
+  "uid" : "d90f7ccee7efd51e",
+  "name" : "test_get_credit_lists",
+  "fullName" : "test_home.TestHome#test_get_credit_lists",
+  "historyId" : "57a0d44adc9e9ab08b8a21cff2fc0ef9",
+  "time" : {
+    "start" : 1606292250222,
+    "stop" : 1606292250332,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606292250081,
+      "stop" : 1606292250081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4d760f8e31961c",
+      "name" : "stdout",
+      "source" : "e4d760f8e31961c.txt",
+      "type" : "text/plain",
+      "size" : 1010
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606292251107,
+      "stop" : 1606292251107,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "story",
+    "value" : "获取征信授权书列表"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "22740f0edd2cf2be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291892210,
+        "stop" : 1606291892308,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "34f19ab3942b7d0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291566978,
+        "stop" : 1606291567100,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "2f6a5c248b1dda25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291391178,
+        "stop" : 1606291391283,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "90d96e35bcadd5a5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606290058615,
+        "stop" : 1606290058700,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "cf1b6871f56ff8e4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606290020906,
+        "stop" : 1606290020983,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "f9ada41d13aa1e81",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606289479944,
+        "stop" : 1606289480030,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "8edd97328915978a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606288925959,
+        "stop" : 1606288926046,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "b3839fdcac92b1b6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606288736019,
+        "stop" : 1606288736109,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "7733174c4fe2885a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 10000 == 200",
+      "time" : {
+        "start" : 1606276367505,
+        "stop" : 1606276367585,
+        "duration" : 80
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d90f7ccee7efd51e.json",
+  "parameterValues" : [ ]
+}

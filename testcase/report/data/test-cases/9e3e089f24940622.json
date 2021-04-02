@@ -1,0 +1,163 @@
+{
+  "uid" : "9e3e089f24940622",
+  "name" : "test_login",
+  "fullName" : "test_login.TestLogin#test_login",
+  "historyId" : "e18e73dc148eb22430ae8d87ce2af2bb",
+  "time" : {
+    "start" : 1606292251262,
+    "stop" : 1606292251262,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606292251109,
+      "stop" : 1606292251109,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e973e46de9bf2d88",
+      "name" : "stdout",
+      "source" : "e973e46de9bf2d88.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606292251363,
+      "stop" : 1606292251363,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Jammy-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "92972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8885ed0cb89616e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291893210,
+        "stop" : 1606291893210,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5241f2355b287c47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291567983,
+        "stop" : 1606291568142,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "cd6cec8b91413549",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606291405463,
+        "stop" : 1606291405610,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "236cffdc55d18ece",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290059462,
+        "stop" : 1606290059649,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "cd86dca550a354b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290021736,
+        "stop" : 1606290021958,
+        "duration" : 222
+      }
+    }, {
+      "uid" : "c78cb2f3c7438e8d",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '../datas/userinfo.yaml'",
+      "time" : {
+        "start" : 1606289480758,
+        "stop" : 1606289480953,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "f6623b1687683228",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '../datas/userinfo.yaml'",
+      "time" : {
+        "start" : 1606288926746,
+        "stop" : 1606288926932,
+        "duration" : 186
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e3e089f24940622.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/app/getLastApp",
+  "json": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "t": 1606288926944
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "",
+    "t": "1606288926944",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "f310a1e6415e774e2fad9e92f2df27c1",
+    "uid": ""
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "app_name": "车宇宙车主",
+    "android_code": "12",
+    "android_version": "1.0.0",
+    "tipnum": 0,
+    "force": 0,
+    "package_url": "https://www.pgyer.com/maitianowners",
+    "increment_url": "http://p7q1z8r94.bkt.clouddn.com/com.maitian.owners522201329.wgt",
+    "ios_tipnum": 0,
+    "ios_force": 0,
+    "ios_version": "1.0.0",
+    "ios_code": 10,
+    "ios_bundle_id": "",
+    "ios_now_version": "1.0.0",
+    "ios_increment_url": "",
+    "ios_package_url": "https://fir.im/ownersbeta",
+    "ios_down_url": "",
+    "ios_update_time": 0,
+    "android_package_url": "",
+    "android_down_url": "",
+    "android_update_time": 0,
+    "native_android_version": "1.0.0",
+    "native_ios_version": "1.0.0",
+    "status": 1,
+    "remarks": ""
+  }
+}

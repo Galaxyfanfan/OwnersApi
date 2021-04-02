@@ -1,0 +1,133 @@
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/getClaimsList",
+  "json": {
+    "id": "9624"
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606291894565",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "30bce59e50551547e3f047605444e70f",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+      "create_time": " 2020-11-12",
+      "flowid": 10910
+    }
+  ]
+}
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/getClaimsDetail",
+  "json": {
+    "flowid": 10910
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606291894656",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "560bbf72c0a28654e30020ac5d1e060d",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "car_type_name": "奔驰GL级 2014款 4.7T 自动 GL550 美规版",
+    "flowid": 10910,
+    "flow_id_claims": null,
+    "claims_amount": null,
+    "depart_id": 16,
+    "status": null,
+    "create_time": null,
+    "comment": null,
+    "minAmount": 5000,
+    "files": [
+      {
+        "id": 188,
+        "name": "事故认定书*",
+        "type": 2,
+        "property": 1,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 189,
+        "name": "维修清单*",
+        "type": 2,
+        "property": 1,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 190,
+        "name": "定损单*",
+        "type": 2,
+        "property": 1,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 191,
+        "name": "理赔单",
+        "type": 2,
+        "property": 2,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      },
+      {
+        "id": 192,
+        "name": "维修发票",
+        "type": 2,
+        "property": 2,
+        "is_choose": 2,
+        "is_compression": 1,
+        "sample": "",
+        "urls": []
+      }
+    ]
+  }
+}
+/-------------------请求数据-------------------/
+{
+  "method": "post",
+  "url": "http://daopu.chejinkuang.com/api/consumer/Claims/commitClaims",
+  "json": {
+    "amount": 6000,
+    "departid": 16,
+    "files": [],
+    "flowid": 10910,
+    "id": 188
+  },
+  "headers": {
+    "appkey": "b91714e8654c75b298fda4029685101f",
+    "token": "9ab8e482ef0eba53857f83216729477e",
+    "t": "1606291894762",
+    "uuid": "B1566FDC-2F4D-4FE2-B8D7-A0558E771536",
+    "sign": "645d1798b1a0651fd6b4234702da0865",
+    "uid": "9624"
+  }
+}
+/-------------------返回数据-------------------/

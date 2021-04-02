@@ -1,0 +1,476 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "首页",
+    "children" : [ {
+      "name" : "首页 状态",
+      "children" : [ {
+        "name" : "test_model_status",
+        "uid" : "de9d5c3a3d46d3ac",
+        "parentUid" : "eb89e86757363d6bd1289595942ab0af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250083,
+          "stop" : 1606292250220,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb89e86757363d6bd1289595942ab0af"
+    }, {
+      "name" : "获取征信授权书列表",
+      "children" : [ {
+        "name" : "test_get_credit_lists",
+        "uid" : "d90f7ccee7efd51e",
+        "parentUid" : "0a50f93590cb29aace28c7b7bbb9057e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250222,
+          "stop" : 1606292250332,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a50f93590cb29aace28c7b7bbb9057e"
+    }, {
+      "name" : "获取合同列表",
+      "children" : [ {
+        "name" : "test_get_contract_lists",
+        "uid" : "fd9b6728365ae071",
+        "parentUid" : "dd7b06cf34f617f9a70f23ed63b06b9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250335,
+          "stop" : 1606292250467,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd7b06cf34f617f9a70f23ed63b06b9d"
+    }, {
+      "name" : "获取合同pdf",
+      "children" : [ {
+        "name" : "test_get_production_pdf",
+        "uid" : "1807b7931f3c24cc",
+        "parentUid" : "9f2d18eba2d205d38b6d87d06bbde729",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1606292250469,
+          "stop" : 1606292250469,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f2d18eba2d205d38b6d87d06bbde729"
+    }, {
+      "name" : "获取验证码",
+      "children" : [ {
+        "name" : "test_get_verification_code",
+        "uid" : "55b2eac29ea211db",
+        "parentUid" : "eeb22cdb2f8564007ac87bf4d296a09c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1606292250471,
+          "stop" : 1606292250471,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eeb22cdb2f8564007ac87bf4d296a09c"
+    }, {
+      "name" : "校验验证码",
+      "children" : [ {
+        "name" : "test_check_verification_code",
+        "uid" : "cbcd41cea9d80168",
+        "parentUid" : "438c517b62debe6887593e5e32d7a9df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1606292250472,
+          "stop" : 1606292250472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "438c517b62debe6887593e5e32d7a9df"
+    }, {
+      "name" : "获取身份证列表",
+      "children" : [ {
+        "name" : "test_get_idno_img",
+        "uid" : "c24dfec4652ecbc0",
+        "parentUid" : "2aafa55215bbf31a68124606cb18cc71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250475,
+          "stop" : 1606292250564,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2aafa55215bbf31a68124606cb18cc71"
+    }, {
+      "name" : "获取视频面签列表",
+      "children" : [ {
+        "name" : "test_call_lists",
+        "uid" : "cf841a8f1351396f",
+        "parentUid" : "5f145783c3a82b666eac3f5b70b3f177",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250566,
+          "stop" : 1606292250652,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f145783c3a82b666eac3f5b70b3f177"
+    }, {
+      "name" : "申请面签",
+      "children" : [ {
+        "name" : "test_start_call",
+        "uid" : "8e9b8d5d9608f2c4",
+        "parentUid" : "a3f7cc02c09e9421a84b88bbcf1f1097",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250654,
+          "stop" : 1606292250836,
+          "duration" : 182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3f7cc02c09e9421a84b88bbcf1f1097"
+    }, {
+      "name" : "获取七牛云上传token",
+      "children" : [ {
+        "name" : "test_get_upload_token",
+        "uid" : "26c1083fddec0e49",
+        "parentUid" : "67c0932406cdd821be753081a30f31f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250838,
+          "stop" : 1606292250919,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67c0932406cdd821be753081a30f31f5"
+    }, {
+      "name" : "获取资料库列表",
+      "children" : [ {
+        "name" : "test_get_picture_list",
+        "uid" : "982862c87b1153ed",
+        "parentUid" : "028419d65c88a035a31b6cb5a9bed015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292250921,
+          "stop" : 1606292251010,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "028419d65c88a035a31b6cb5a9bed015"
+    }, {
+      "name" : "上传图片",
+      "children" : [ {
+        "name" : "test_upload_picture",
+        "uid" : "5a1cf0e24c22ad6",
+        "parentUid" : "f488b371122d7f3ca348d73283662669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251013,
+          "stop" : 1606292251106,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f488b371122d7f3ca348d73283662669"
+    } ],
+    "uid" : "eaa2a198f4e7a200ae4212d088e65135"
+  }, {
+    "name" : "登录",
+    "children" : [ {
+      "name" : "获取登录验证码",
+      "children" : [ {
+        "name" : "test_code",
+        "uid" : "d5b055896dde052d",
+        "parentUid" : "79461eaece8c2f70d001fc928b13e1d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606292251110,
+          "stop" : 1606292251197,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79461eaece8c2f70d001fc928b13e1d6"
+    }, {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "9e3e089f24940622",
+        "parentUid" : "9536ade95b91df65f2bc1742e8478ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251262,
+          "stop" : 1606292251262,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9536ade95b91df65f2bc1742e8478ce4"
+    }, {
+      "name" : "退出登录",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "b2519b995b632f15",
+        "parentUid" : "dd57eb9a91f4f5d4ee8d57e5ff21a627",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1606292251263,
+          "stop" : 1606292251263,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd57eb9a91f4f5d4ee8d57e5ff21a627"
+    }, {
+      "name" : "获取应用信息",
+      "children" : [ {
+        "name" : "test_get_last_app",
+        "uid" : "46c3d8a9e288502b",
+        "parentUid" : "7c4785ac53f260cf2ad5151f3ec2bd87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251266,
+          "stop" : 1606292251362,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c4785ac53f260cf2ad5151f3ec2bd87"
+    } ],
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+  }, {
+    "name" : "个人中心",
+    "children" : [ {
+      "name" : "获取消息未读数",
+      "children" : [ {
+        "name" : "test_get_unread_number",
+        "uid" : "6f8df8518692d299",
+        "parentUid" : "17877748f5ac8830234da1c03c0151d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251365,
+          "stop" : 1606292251454,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17877748f5ac8830234da1c03c0151d6"
+    }, {
+      "name" : "获取消息列表",
+      "children" : [ {
+        "name" : "test_get_news_list",
+        "uid" : "6972b126dc72a3e9",
+        "parentUid" : "4688507bbb114e94e2595298aee24484",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251456,
+          "stop" : 1606292251558,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4688507bbb114e94e2595298aee24484"
+    }, {
+      "name" : "查看消息详情",
+      "children" : [ {
+        "name" : "test_get_news_info",
+        "uid" : "b0b1824bcd2305d9",
+        "parentUid" : "f41611b58f23aa303a486e82406cdc6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251560,
+          "stop" : 1606292251661,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f41611b58f23aa303a486e82406cdc6c"
+    }, {
+      "name" : "设置全部已读",
+      "children" : [ {
+        "name" : "test_set_all_readr",
+        "uid" : "794aaedcf0eb3578",
+        "parentUid" : "3f8cc4d56afd7d18ddf828646142ff17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251662,
+          "stop" : 1606292251762,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f8cc4d56afd7d18ddf828646142ff17"
+    }, {
+      "name" : "还款列表",
+      "children" : [ {
+        "name" : "test_get_repayloan_list",
+        "uid" : "28288d8916cdd22a",
+        "parentUid" : "1d314a3a8c2db61e11b1dcb6137aa5ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251764,
+          "stop" : 1606292251850,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d314a3a8c2db61e11b1dcb6137aa5ec"
+    }, {
+      "name" : "还款卡信息",
+      "children" : [ {
+        "name" : "test_selcard",
+        "uid" : "e2dee77774febf39",
+        "parentUid" : "6662434b79d8e4fae95f74420f80db1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292251852,
+          "stop" : 1606292252025,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6662434b79d8e4fae95f74420f80db1c"
+    }, {
+      "name" : "还款计划表",
+      "children" : [ {
+        "name" : "test_repayment_plan",
+        "uid" : "7dbfd2dce7adc168",
+        "parentUid" : "a9eae1be1cf59cf778dc6e4e16df5be4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292252028,
+          "stop" : 1606292252203,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9eae1be1cf59cf778dc6e4e16df5be4"
+    }, {
+      "name" : "理赔列表",
+      "children" : [ {
+        "name" : "test_get_claims_list",
+        "uid" : "66ec75629b6140e4",
+        "parentUid" : "86f57fb19a1f1874afa8c37806a6b1cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292252205,
+          "stop" : 1606292252280,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86f57fb19a1f1874afa8c37806a6b1cb"
+    }, {
+      "name" : "理赔详情",
+      "children" : [ {
+        "name" : "test_get_claims_detail",
+        "uid" : "2f4341cd1cfbc9e8",
+        "parentUid" : "f9c527ee003675880a3be33be589c105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292252282,
+          "stop" : 1606292252464,
+          "duration" : 182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9c527ee003675880a3be33be589c105"
+    }, {
+      "name" : "理赔历史记录",
+      "children" : [ {
+        "name" : "test_get_claims_histroy",
+        "uid" : "b31ac7c3aa1e2e2f",
+        "parentUid" : "f7a5cdcb0de103116cea423a4f69c492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606292252467,
+          "stop" : 1606292252652,
+          "duration" : 185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7a5cdcb0de103116cea423a4f69c492"
+    }, {
+      "name" : "提交理赔",
+      "children" : [ {
+        "name" : "test_commit_claims",
+        "uid" : "2bb6d718a60712b4",
+        "parentUid" : "fd3324fcab760f48477af2dfae9541d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1606292252653,
+          "stop" : 1606292252932,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd3324fcab760f48477af2dfae9541d3"
+    } ],
+    "uid" : "1d7c480067ad6060dd9fe06167fad56b"
+  } ]
+}
